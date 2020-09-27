@@ -1,0 +1,14 @@
+.create-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    align-self: center;
+    text-align: center;
+    color: white;
+    text-shadow:5px 5px 10px black;
+    font-weight: bolder;
+    margin: auto;
+    font-weight: bolder; 
+}
