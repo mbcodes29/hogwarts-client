@@ -47,7 +47,7 @@ export default class MyStudentsPage extends React.Component {
         <h1 className="my-students-h1">My Students</h1>
         <section id="students">
           {this.context.students.map((student, index) => (
-            <section id="student-one" key={index}>
+            <section className="student-one" key={index}>
               {/* <p>Student {index + 1}:</p> */}
               <p>
                 Student {index + 1} belongs to the {student.house} House. Their

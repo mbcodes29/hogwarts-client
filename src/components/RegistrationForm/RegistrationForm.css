@@ -1,0 +1,8 @@
+.RegistrationForm, .user_name, .password, .register_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    align-self: center;
+}

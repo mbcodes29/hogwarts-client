@@ -22,16 +22,6 @@ class App extends Component {
 
   componentDidMount() {
     this.getStudents()
-    // console.log('mounting')
-    // if(TokenService.hasAuthToken()) {
-    //   const id = TokenService.readJwtToken().user_id
-    //   console.log(id)
-    //   fetch(`${config.API_ENDPOINT}/students/users/${id}`)
-    //   .then(res => res.json())
-    //   .then(students => {
-    //     this.setState({students})
-    //   })
-    // }
   }
   
   getStudents = () => {

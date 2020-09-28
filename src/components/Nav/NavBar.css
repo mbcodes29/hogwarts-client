@@ -11,4 +11,10 @@
     padding: 5px;
     text-decoration: none;
     color: black;
+    cursor: url('../../images/cursor.png'), auto;
+}
+
+
+.navbarlink:hover {
+  cursor: url('../../images/cursor.png'), auto;
 }

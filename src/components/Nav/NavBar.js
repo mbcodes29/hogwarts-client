@@ -7,11 +7,9 @@ export default class NavBar extends React.Component {
         return (
             <nav>
             <ul className="navbar">
-                <li className="nav-links"><Link to="/">Home</Link></li>
-                <li className="nav-links"><Link to="/create-student">Create</Link></li>
-                <li className="nav-links"><Link to="/my-students">My Students</Link></li>
-                {/* <li className="nav-links"><Link to="/login">Login</Link></li>
-                <li className="nav-links"><Link to="/signup">Sign Up</Link></li> */}
+                <li className="nav-links"><Link className="navbarlink" to="/">Home</Link></li>
+                <li className="nav-links"><Link className="navbarlink" to="/create-student">Create</Link></li>
+                <li className="nav-links"><Link className="navbarlink" to="/my-students">My Students</Link></li>
             </ul>
             </nav>
         )

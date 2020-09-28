@@ -10,6 +10,7 @@
     margin: auto;
     text-shadow:5px 5px 10px black;
     font-weight: bolder;
+    background: rgba(0, 0, 0, .5);
 }
 
 

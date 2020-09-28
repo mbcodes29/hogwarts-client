@@ -11,4 +11,25 @@
     font-weight: bolder;
     margin: auto;
     font-weight: bolder; 
+    background: rgba(0, 0, 0, .5);
+}
+
+.create-form:hover {
+    cursor: url('../../images/cursor.png'), auto;
+}
+
+.select-class:hover {
+    cursor: url('../../images/cursor.png'), auto;
+}
+
+.label-class:hover {
+    cursor: url('../../images/cursor.png'), auto;
+}
+
+.option-class:hover {
+    cursor: url('../../images/cursor.png'), auto;
+}
+
+.input-class:hover {
+    cursor: url('../../images/cursor.png'), auto;
 }

@@ -5,6 +5,52 @@
     text-align: center; 
     padding-top:10px;
     padding-bottom: 0;
-    color: black;
+    color: white;
     
 }
+
+.Header__logged-in {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0px;
+    color: black;
+}
+
+.headerlink {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0px;
+    color: black;
+}
+
+.registerlink {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0px;
+    color: black;
+}
+
+.loginlink {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0px;
+    color: black;
+}
+
+.headerlink:hover {
+    cursor: url('../../images/cursor.png'), auto;
+}
+
+.loginlink:hover {
+    cursor: url('../../images/cursor.png'), auto;
+}
+
+
+.registerlink:hover {
+    cursor: url('../../images/cursor.png'), auto;
+}
+
