@@ -7,7 +7,8 @@ API Documentation:
 This app allows a user to make selections to create a Hogwarts student, including selecting preferred pronouns, a pet, a wand type, a wand core, and a favorite magical Hogwarts school subject. 
 
 Landing Page screenshot:
-<a href="https://imgur.com/HNWUZoX"><img src="https://i.imgur.com/HNWUZoX.png" title="source: imgur.com" /></a>
+</br>
+<a href="https://imgur.com/qxVsNmH"><img src="https://i.imgur.com/qxVsNmH.png" title="source: imgur.com" /></a>
 
 After reading the landing page, the user clicks the 'HERE' button and is redirected to the Create Page, where they will choose input in a form to create their Hogwarts student. 
 
