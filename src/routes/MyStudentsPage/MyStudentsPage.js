@@ -13,9 +13,6 @@ export default class MyStudentsPage extends React.Component {
   
   static contextType = AppContext
 
-  componentDidMount() {
-    this.context.getStudents()
-  }
 
   handleRemoveStudent = (e, id) => {
     e.preventDefault();
@@ -48,7 +45,6 @@ export default class MyStudentsPage extends React.Component {
         <section id="students">
           {this.context.students.map((student, index) => (
             <section className="student-one" key={index}>
-              {/* <p>Student {index + 1}:</p> */}
               <p>
                 Student {index + 1} belongs to the {student.house} House. Their
                 pet is {['a','e','i','o','u'].includes(student.pet[0]) ? 'an' : 'a'} {student.pet}, and their favorite subject is{" "}
