@@ -64,9 +64,6 @@ class App extends Component {
     return (
       <AppContext.Provider value={value}>
       <div className='App'>
-        {/* <header className='App__header'>
-          <Route component={Header}/>
-        </header> */}
         <Switch>
         <Route exact path = '/' component = {LandingPage}/>
         <PublicOnlyRoute path={'/login'} component={LoginPage}/>

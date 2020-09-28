@@ -26,8 +26,6 @@ export default class MyStudentsPage extends React.Component {
   })
     .then(() => {
       this.context.removeStudent(studentId);
-      // allow parent to perform extra behaviour
-      // this.props.onRemoveStudent(studentId);
     })
     .catch((error) => {
       console.error({ error });
