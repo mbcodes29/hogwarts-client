@@ -16,5 +16,5 @@ export default class CreatePage extends React.Component {
         <CreatePageForm goTo={this.goTo}/>
       </div>
     );
-  }
+  } 
 }
