@@ -16,3 +16,7 @@ body:hover {
 body button {
   cursor: url('../images/cursor.png'), auto;
 }
+
+.App {
+  margin-top: 5%;
+}
