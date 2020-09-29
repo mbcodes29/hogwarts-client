@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Switch} from 'react-router-dom';
 import './App.css'
-import Header from '../components/Header/Header'
 import PrivateRoute from '../components/Utils/PrivateRoute'
 import PublicOnlyRoute from '../components/Utils/PublicOnlyRoute';
 import LoginPage from '../routes/LoginPage/LoginPage'

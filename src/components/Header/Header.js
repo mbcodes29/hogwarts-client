@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import { Hyph } from '../Utils/Utils';
 import TokenService from '../../services/token-service';
 import './Header.css';
 import AppContext from '../../contexts/context'
@@ -11,7 +10,6 @@ export default class Header extends Component {
 
     handleLogoutClick = () => {
         TokenService.clearAuthToken();
-        this.context.clearStudents()
     }
 
     renderLogoutLink() {
