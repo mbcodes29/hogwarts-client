@@ -1,6 +1,6 @@
 # Create a Hogwarts Student
 
-##vLink to live app: https://hogwarts-client.mbcodes29.vercel.app/
+## Link to live app: https://hogwarts-client.mbcodes29.vercel.app/
 
 
 
