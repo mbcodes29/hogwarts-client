@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<nav>
+  <ul
+    className="navbar"
+  >
+    <li
+      className="nav-links"
+    >
+      <a
+        className="navbarlink"
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </li>
+    <li
+      className="nav-links"
+    >
+      <a
+        className="navbarlink"
+        href="/create-student"
+        onClick={[Function]}
+      >
+        Create
+      </a>
+    </li>
+    <li
+      className="nav-links"
+    >
+      <a
+        className="navbarlink"
+        href="/my-students"
+        onClick={[Function]}
+      >
+        My Students
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

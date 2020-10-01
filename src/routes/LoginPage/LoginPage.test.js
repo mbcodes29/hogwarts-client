@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CreatePage from './CreatePage'
+import LoginPage from './LoginPage'
 import {BrowserRouter} from 'react-router-dom'
 import renderer from "react-test-renderer"
 
@@ -8,14 +8,14 @@ it('renders without crashing',() => {
     const div = document.createElement('div')
     ReactDOM.render(
     <BrowserRouter>
-        <CreatePage />
+        <LoginPage />
     </BrowserRouter>, div)
     ReactDOM.unmountComponentAtNode(div)
 })
 
 it('renders the UI as expected', () => {
     const tree = renderer
-      .create(<BrowserRouter><CreatePage /></BrowserRouter>)
+      .create(<BrowserRouter><LoginPage /></BrowserRouter>)
       .toJSON();
     expect(tree).toMatchSnapshot();  
   });

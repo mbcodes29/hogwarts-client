@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<form
+  className="create-form"
+  onSubmit={[Function]}
+>
+  <label
+    className="label-class"
+  >
+    Pick your student's preferred pronouns:
+    <br />
+    <select
+      className="select-class"
+      name="pronouns"
+      onChange={[Function]}
+      required={true}
+    >
+      <option
+        className="option-class"
+        value=""
+      >
+        select
+      </option>
+      <option
+        value="she-her"
+      >
+        She/Her
+      </option>
+      <option
+        value="he-him"
+      >
+        He/Him
+      </option>
+      <option
+        value="they-them"
+      >
+        They/Them
+      </option>
+    </select>
+  </label>
+  <br />
+  <br />
+  <label
+    className="label-class"
+  >
+    Choose a pet:
+    <br />
+    <select
+      className="select-class"
+      name="pet"
+      onChange={[Function]}
+      required={true}
+    >
+      <option
+        className="option-class"
+        value=""
+      >
+        select
+      </option>
+      <option
+        value="Owl"
+      >
+        Owl
+      </option>
+      <option
+        value="Cat"
+      >
+        Cat
+      </option>
+      <option
+        value="Toad"
+      >
+        Toad
+      </option>
+    </select>
+  </label>
+  <br />
+  <br />
+  <label
+    className="label-class"
+  >
+    Choose your wand type:
+    <br />
+    <select
+      className="select-class"
+      name="wandType"
+      onChange={[Function]}
+      required={true}
+    >
+      <option
+        className="option-class"
+        value=""
+      >
+        select
+      </option>
+      <option
+        value="birch"
+      >
+        Birch
+      </option>
+      <option
+        value="ash"
+      >
+        Ash
+      </option>
+      <option
+        value="alder"
+      >
+        Alder
+      </option>
+      <option
+        value="willow"
+      >
+        Willow
+      </option>
+      <option
+        value="oak"
+      >
+        Oak
+      </option>
+      <option
+        value="holly"
+      >
+        Holly
+      </option>
+      <option
+        value="hazel"
+      >
+        Hazel
+      </option>
+      <option
+        value="ivy"
+      >
+        Ivy
+      </option>
+    </select>
+  </label>
+  <br />
+  <br />
+  <label
+    className="label-class"
+  >
+    Choose your wand core:
+    <br />
+    <select
+      className="select-class"
+      name="wandCore"
+      onChange={[Function]}
+      required={true}
+    >
+      <option
+        className="option-class"
+        value=""
+      >
+        select
+      </option>
+      <option
+        value="unicorn"
+      >
+        Unicorn
+      </option>
+      <option
+        value="dragon"
+      >
+        Dragon
+      </option>
+      <option
+        value="phoenix"
+      >
+        Phoenix
+      </option>
+    </select>
+  </label>
+  <br />
+  <br />
+  <label
+    className="label-class"
+  >
+    Choose a favorite subject:
+    <br />
+    <select
+      className="select-class"
+      name="favoriteSubject"
+      onChange={[Function]}
+      required={true}
+    >
+      <option
+        className="option-class"
+        value=""
+      >
+        select
+      </option>
+      <option
+        value="transfiguration"
+      >
+        Transfiguration
+      </option>
+      <option
+        value="charms"
+      >
+        Charms
+      </option>
+      <option
+        value="potions"
+      >
+        Potions
+      </option>
+      <option
+        value="history"
+      >
+        History of Magic
+      </option>
+      <option
+        value="defense"
+      >
+        Defense Against the Dark Arts
+      </option>
+      <option
+        value="astronomy"
+      >
+        Astronomy
+      </option>
+      <option
+        value="herbology"
+      >
+        Herbology
+      </option>
+      <option
+        value="flying"
+      >
+        Flying
+      </option>
+      <option
+        value="divination"
+      >
+        Divination
+      </option>
+      <option
+        value="magical-creatures"
+      >
+        Care of Magical Creatures
+      </option>
+    </select>
+  </label>
+  <br />
+  <br />
+  <input
+    className="input-class"
+    type="submit"
+    value="Submit"
+  />
+</form>
+`;

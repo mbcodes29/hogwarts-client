@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div>
+  <nav
+    className="Header"
+  >
+    <h1
+      className="headerlink"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Create A Hogwarts Student!
+      </a>
+    </h1>
+    <div
+      className="Header__not-logged-in"
+    >
+      <a
+        className="registerlink"
+        href="/register"
+        onClick={[Function]}
+      >
+         Create an account 
+      </a>
+      <p />
+      <a
+        className="loginlink"
+        href="/login"
+        onClick={[Function]}
+      >
+         Log in 
+      </a>
+    </div>
+  </nav>
+  <nav>
+    <ul
+      className="navbar"
+    >
+      <li
+        className="nav-links"
+      >
+        <a
+          className="navbarlink"
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li
+        className="nav-links"
+      >
+        <a
+          className="navbarlink"
+          href="/create-student"
+          onClick={[Function]}
+        >
+          Create
+        </a>
+      </li>
+      <li
+        className="nav-links"
+      >
+        <a
+          className="navbarlink"
+          href="/my-students"
+          onClick={[Function]}
+        >
+          My Students
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <section
+    className="landing"
+  >
+    <p>
+      Experience the magic of preparing for your first year of Hogwarts School of Witchcraft and Wizardry! Choose your wand, your pet, and get sorted! The journey begins...
+    </p>
+    <button
+      className="here-button"
+      onClick={[Function]}
+    >
+      HERE
+    </button>
+  </section>
+</div>
+`;
