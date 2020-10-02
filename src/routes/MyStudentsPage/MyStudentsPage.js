@@ -13,6 +13,10 @@ export default class MyStudentsPage extends React.Component {
   
   static contextType = AppContext
 
+  componentDidMount() {
+    this.context.getStudents()
+  }
+
 
   handleRemoveStudent = (e, id) => {
     e.preventDefault();
