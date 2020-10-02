@@ -15,7 +15,10 @@ it('renders without crashing',() => {
 
 it('renders the UI as expected', () => {
     const tree = renderer
-      .create(<BrowserRouter><MyStudentsPage /></BrowserRouter>)
+      .create(
+      <BrowserRouter>
+        <MyStudentsPage />
+      </BrowserRouter>)
       .toJSON();
     expect(tree).toMatchSnapshot();  
   });

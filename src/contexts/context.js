@@ -4,7 +4,8 @@ const AppContext = React.createContext({
     students: [],
     removeStudent: () => {},
     addStudent: () => {},
-    randomizeHouse: () => {}
+    randomizeHouse: () => {},
+    getStudents: () => {}
 })
 
 export default AppContext;
